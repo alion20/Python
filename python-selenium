@@ -1,23 +1,26 @@
-install pip in terminal : 
-
-    sudo apt-get install python python-pip curl unzip -y
-    sudo pip install selenium
-    sudo python3.8 -m pip install selenium <- to prevent the error that selenium did't install at 3.8Python folder
-         // please do check the link below whcih have detail SOP about run selenium with python at  unbuntu OS.
-         // https://christopher.su/2015/selenium-chromedriver-ubuntu/ 
+install pip in terminal : -----------------------------------------------------------------------------
+    
+    $ sudo apt-get install python python-pip curl unzip -y
+    $ sudo pip install selenium
+    $ sudo python3.8 -m pip install selenium <- to prevent the error that selenium did't install at 3.8Python folder
+     // please do check the link below whcih have detail SOP about run selenium with python at  unbuntu OS.
+     // https://christopher.su/2015/selenium-chromedriver-ubuntu/ 
 
                                                
-install pip in vscode terminal  :  
+        
+install pip in vscode terminal  :  -------------------------------------------------------------------
 
-    $python -m pip install selenium // don't use this line, it may cause that wrong pip installation to the other version of Python.
-    $pip show selenium
+    $ python -m pip install selenium // don't use this line, it may cause that wrong pip installation to the other version of Python.
+    $ pip show selenium
     $ sudo chmod a+x /usr/local/bin/chromedriver
     $ chromedriver 
-          //Starting ChromeDriver 2.24.417424 (c5c5ea873213ee72e3d0929b47482681555340c3) on port 9515
-         //Only local connections are allowed.
-         //提示 Starting ChromeDriver xxx on port 9515 信息时，说明 ChromeDriver 设置成功
+     //Starting ChromeDriver 2.24.417424 (c5c5ea873213ee72e3d0929b47482681555340c3) on port 9515
+     //Only local connections are allowed.
+     //提示 Starting ChromeDriver xxx on port 9515 信息时，说明 ChromeDriver 设置成功
                                                                 
-install   BeautifulSoap for excract the web info : 
+                                                                
+                                                                
+install   BeautifulSoap for excract the web info : -----------------------------------------------
 
-    sudo python3.8 -m pip install BeautifulSoup4
+    $ sudo python3.8 -m pip install BeautifulSoup4
           
