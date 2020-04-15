@@ -6,8 +6,8 @@ install pip in terminal : ------------------------------------------------------
      // please do check the link below whcih have detail SOP about run selenium with python at  unbuntu OS.
      // https://christopher.su/2015/selenium-chromedriver-ubuntu/ 
 
-                                               
-        
+    $sudo python3.8 -m pip install pandas numpy
+      // same as above  
 install pip in vscode terminal  :  -------------------------------------------------------------------
 
     $ python -m pip install selenium // don't use this line, it may cause that wrong pip installation to the other version of Python.
