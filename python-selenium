@@ -21,5 +21,8 @@ install pip in vscode terminal  :  ---------------------------------------------
      
     $ sudo python3.8 -m pip install BeautifulSoup4
     $ python3.8 -m pip install lxml
-     $ sudo python3.8 -m pip install pandas numpy
-          
+    $ sudo python3.8 -m pip install pandas numpy
+    
+    5/12/2020
+    
+    $sudo python3.8 -m pip install xlwt     // install xlwt module  for [  pd.to_excel('123.xls')   ]  function  in   pandas module 
