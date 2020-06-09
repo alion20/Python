@@ -29,8 +29,12 @@ install pip in vscode terminal  :  ---------------------------------------------
     
   install python module in VScode Windows OS(06/09/2020)-------------------------------------------------------------------------------------------
 
+  //install the pip first
+
   python -v
   pip list
+  python -m pip install selenium  
+  python -m pip install urllib3
   python -m pip install BeautifulSoup4
   python -m pip install pandas numpy
   python -m pip install xlwt
