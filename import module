@@ -1,0 +1,47 @@
+install pip in terminal : -----------------------------------------------------------------------------
+
+    $ sudo apt-get install python python-pip curl unzip -y
+
+install pip in vscode terminal  :  -------------------------------------------------------------------
+
+    $ python -m pip install selenium // don't use this cmd, it may install that wrong pip version ( windows is okay, just don't use it in linux).
+    $ pip show selenium
+    $ sudo chmod a+x /usr/local/bin/chromedriver
+    $ chromedriver 
+     //Starting ChromeDriver 2.24.417424 (c5c5ea873213ee72e3d0929b47482681555340c3) on port 9515
+     //Only local connections are allowed.
+     //提示 Starting ChromeDriver xxx on port 9515 信息时，说明 ChromeDriver 设置成功
+ 
+ 
+ 
+install python module in VScode Linux OS : -------------------------------------------------------------------------------------------
+
+    $ sudo python3.8 -m pip install selenium <- to prevent the error that selenium did't install at 3.8Python folder
+    // please do check the link below whcih have detail SOP about run selenium with python at  unbuntu OS.
+    // https://christopher.su/2015/selenium-chromedriver-ubuntu/ 
+     
+    $ sudo python3.8 -m pip install BeautifulSoup4
+    $ sudo python3.8 -m pip install lxml
+    $ sudo python3.8 -m pip install pandas numpy
+    $ sudo python3.8 -m pip install xlwt
+     // xlwt module  for [  pd.to_excel('123.xls')   ]  function  in   pandas module 
+    
+    
+
+
+
+
+install python module in VScode Windows OS : -------------------------------------------------------------------------------------------
+    //install the pip first
+
+    python -v
+    pip list
+    python -m pip install selenium  
+    python -m pip install urllib3
+    python -m pip install BeautifulSoup4
+    python -m pip install pandas numpy
+    python -m pip install xlwt
+    python -m pip install requests
+    python -m pip install ssl     
+    python -m pip install getpass
+     // ssl, getpass for network login connection
